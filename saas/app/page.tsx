@@ -3,7 +3,7 @@ import Navbar from "../components/global/navbar";
 import Image from "next/image";
 import { Button } from '../components/ui/button'
 import { InfiniteMovingCards } from "@/components/global/infinite-moving-cards";
-import { clients } from "@/lib/constants";
+import { clients, products } from "@/lib/constants";
 export default function Home() {
   return (
       <main>
@@ -37,7 +37,7 @@ export default function Home() {
         speed="slow"
       />
       <section>
-        <HeroParallas products={products}></HeroParallas>
+        <HeroParallax products={products}></HeroParallax>
       </section>
 
     </main>

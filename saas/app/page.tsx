@@ -4,6 +4,9 @@ import Image from "next/image";
 import { Button } from '../components/ui/button'
 import { InfiniteMovingCards } from "@/components/global/infinite-moving-cards";
 import { clients, products } from "@/lib/constants";
+import { HeroParallax } from "@/components/global/connect-parallax";
+
+
 export default function Home() {
   return (
       <main>
